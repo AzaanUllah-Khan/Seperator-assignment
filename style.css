@@ -1,0 +1,138 @@
+
+        /* Body Styling */
+        body {
+            background-color: #555;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container Styling */
+        .container {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: fit-content;
+        }
+
+        /* Title Input Styling */
+        input#heading {
+            width: 90%;
+            display: block;
+            margin: 0 auto 10px;
+            width: 90%;
+            padding: 10px;
+            background-color: #333;
+            border: 1px solid #555;
+            outline: none;
+            border-radius: 5px;
+            color: #eee;
+            font-size: 16px;
+        }
+
+        /* Image URL Input Styling */
+        input#photo {
+            width: 90%;
+            display: block;
+            margin: 0 auto 10px;
+            width: 90%;
+            padding: 10px;
+            background-color: #333;
+            border: 1px solid #555;
+            outline: none;
+            border-radius: 5px;
+            color: #eee;
+            font-size: 16px;
+        }
+
+        ::placeholder {
+            color: #999;
+        }
+
+        /* Clear All Categories Button Styling */
+        button.c {
+            display: block;
+            margin: 0 auto 10px;
+            width: 50%;
+            padding: 10px;
+            background-color: #007bff;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* Columns Styling */
+        .columns {
+            background-color: #444;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        /* Category Styling */
+        .columns div {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #444;
+        }
+
+        /* Category Add Button Styling */
+        .columns div button {
+            width: 90px;
+            display: block;
+            margin: 0 auto;
+            padding: 5px;
+            background-color: #007bff;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        /* List Styling */
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        /* List Item Styling */
+        li {
+            margin: 10px 0;
+            padding: 2px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: white;
+            justify-content: center;
+        }
+
+        /* Heading Styling */
+        li h1 {
+            color: #333;
+            margin: 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* Image Styling */
+        li img {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            border-radius: 50%;
+            padding: 2px;
+            background-color: #eee;
+        }
+    

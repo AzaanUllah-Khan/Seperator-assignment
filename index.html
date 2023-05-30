@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players Divider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" placeholder="Player Name" id="heading">
+        <input type="text" placeholder="Player Image" id="photo">
+        <button onclick="location.reload()" class="c">Clear All Categories</button>
+        <div class="columns">
+            <div class="Pakistan">
+                <button onclick="add('pakistan')">Add To Pakistan IX</button>
+                <ul id="pakistan"></ul>
+            </div>
+            <div class="India">
+                <button onclick="add('india')">Add To India IX</button>
+                <ul id="india"></ul>
+            </div>
+            <div class="World">
+                <button onclick="add('world')">Add To World IX</button>
+                <ul id="world"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
